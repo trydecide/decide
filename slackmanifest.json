@@ -1,0 +1,67 @@
+{
+    "display_information": {
+        "name": "Decide",
+        "description": "Extract insights and generate spreadsheets from your data using plain English.",
+        "background_color": "#303133",
+        "long_description": "Decide is an AI-powered Slack app that transforms how you interact with your data. No more complex formulas, no coding, and no tedious spreadsheet setups. Simply upload your data file (JSON, CSV, or other formats), ask your questions in plain English, and Decide will do the rest—delivering insights and generating spreadsheets or Excel files directly in Slack."
+    },
+    "features": {
+        "bot_user": {
+            "display_name": "Decide",
+            "always_online": true
+        },
+        "slash_commands": [
+            {
+                "command": "/spreadsheet",
+                "description": "Analyze your data and convert it into google spreadsheet. ",
+                "usage_hint": "prompt",
+                "should_escape": false
+            },
+            {
+                "command": "/excel",
+                "description": "Analyze your data and convert it into a excel sheet.",
+                "usage_hint": "prompt",
+                "should_escape": false
+            }
+        ]
+    },
+    "oauth_config": {
+        "redirect_urls": [
+            "https://decidebot-9eba3a4c0e68.herokuapp.com/slack/oauth_redirect"
+        ],
+        "scopes": {
+            "user": [
+                "files:read",
+                "files:write",
+                "im:read",
+                "chat:write"
+            ],
+            "bot": [
+                "chat:write",
+                "commands",
+                "files:read",
+                "files:write",
+                "im:history",
+                "im:read",
+                "im:write",
+                "users:read",
+                "users:read.email"
+            ]
+        }
+    },
+    "settings": {
+        "event_subscriptions": {
+            "request_url": "https://trydecide-adetonaabiodun12s-projects.vercel.app/api/slack/events",
+            "bot_events": [
+                "message.im"
+            ]
+        },
+        "interactivity": {
+            "is_enabled": true,
+            "request_url": "https://trydecide-adetonaabiodun12s-projects.vercel.app/slack/events"
+        },
+        "org_deploy_enabled": false,
+        "socket_mode_enabled": true,
+        "token_rotation_enabled": false
+    }
+}
