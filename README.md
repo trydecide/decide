@@ -2,7 +2,7 @@
 
 **Decide** is an AI-powered tool that helps you extract insights and generate spreadsheets from your data using plain English.
 
-To install on slack app, please visit the homepage at [https://www.trydecide.co/](https://www.trydecide.co/)
+To install on slack, please visit the homepage at [https://www.trydecide.co/](https://www.trydecide.co/)
 
 ## Setup Instructions
 
