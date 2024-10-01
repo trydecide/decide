@@ -30,7 +30,7 @@ To install on slack, please visit the homepage at [https://www.trydecide.co/](ht
 
 ### Usage
 
-Refer to the document [here](https://www.trydecide.co/) for the usage guide 
+Refer to the document [here](https://abiodun.notion.site/How-to-decide-f4c796c87e1d41b19887e1d79164b45a) for the usage guide 
 
 
 
