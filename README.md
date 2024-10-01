@@ -28,7 +28,9 @@ To install on slack, please visit the homepage at [https://www.trydecide.co/](ht
 ### Step 5: Migrate the Database
 1. Run the necessary database migrations using Sequelize.
 
+### Usage
 
+Refer to the document [here](https://www.trydecide.co/) for the usage guide 
 
 
 
