@@ -3,7 +3,7 @@
         "name": "Decide",
         "description": "Extract insights and generate spreadsheets from your data using plain English.",
         "background_color": "#303133",
-        "long_description": "Decide is an AI-powered Slack app that transforms how you interact with your data. No more complex formulas, no coding, and no tedious spreadsheet setups. Simply upload your data file (JSON, CSV, or other formats), ask your questions in plain English, and Decide will do the rest—delivering insights and generating spreadsheets or Excel files directly in Slack."
+        "long_description": "Decide is an AI tool for extracting insights and generating spreadsheets from your data using plain English. No more complex formulas, no coding, and no tedious spreadsheet setups. Simply upload your data file (JSON, CSV, or other formats), ask your questions in plain English, and Decide will do the rest, delivering insights and generating spreadsheets or Excel files directly in Slack."
     },
     "features": {
         "bot_user": {
